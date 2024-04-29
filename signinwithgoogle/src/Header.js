@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 
 const Header =() =>{
+
+
 return (
     <>
 
@@ -13,14 +15,14 @@ return (
     <div className="flex gap-2  mr-4">
         <div>Cart</div>
         <div>wishlist</div>
-        <div>Login</div>
-    </div>
-    </div>
-    <Link to= '/'>
+        <div><Link to= '/'>
     <button>
-       Logout
+    {localStorage.getItem('clientId') ? 'Logout' : 'Login'}
     </button>
-    </Link></>
+    </Link></div>
+    </div>
+    </div>
+    </>
 )
 }
 

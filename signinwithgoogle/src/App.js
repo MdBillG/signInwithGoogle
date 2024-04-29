@@ -37,8 +37,9 @@ function App() {
           <div className='mt-4 ml-1'>
         <GoogleLogin
         onSuccess={credentialResponse => {
-          console.log(credentialResponse);
+          console.log(credentialResponse?.clientId);
           setisCredntial(credentialResponse)
+          localStorage.setItem('clientId',credentialResponse?.clientId)
         }}
         onError={() => {
           console.log('Login Failed');

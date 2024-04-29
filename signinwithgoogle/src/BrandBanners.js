@@ -1,11 +1,11 @@
 const BrandBanners  =()=>{
 return (
     <>
-    <div className="flex ml-2 mt-2 justify-evenly">
-        <div className="border-2 w-20 flex justify-center items-center ">GAP</div>
-        <div className="border-2 w-20 flex justify-center items-center">Super Dry</div>
-        <div className="border-2 w-20 flex justify-center items-center">H&M</div>
-        <div className="border-2 w-20 flex justify-center items-center">ZARA</div>
+    <div className="flex ml-2 mt-2 justify-evenly  ">
+        <div className="border-2 w-20 flex justify-center items-center hover:bg-gray-500">Samsung</div>
+        <div className="border-2 w-20 flex justify-center items-center  hover:bg-gray-500">Asus</div>
+        <div className="border-2 w-20 flex justify-center items-center  hover:bg-gray-500">Apple</div>
+        <div className="border-2 w-20 flex justify-center items-center  hover:bg-gray-500">Hp</div>
     </div>
     </>
 )

@@ -5,3 +5,5 @@
     {name:'HP DeskJet',image:'https://rukminim2.flixcart.com/image/312/312/kmxsakw0/monitor/d/n/u/s2721hgf-27-hhgmy-dell-original-imagfq7huhe5j9nw.jpeg?q=70'},
     {name:'Hp Monitor',image:"https://rukminim2.flixcart.com/image/312/312/xif0q/monitor/l/p/z/-original-imagysfvdbggcefy.jpeg?q=70"}
  ]
+
+ export const GooogleImage ='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4UzhgpKc65j3sZj4wM4c2CPs1FuIwwNU1Tw&s'

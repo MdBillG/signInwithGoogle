@@ -7,7 +7,8 @@ import { Link ,Navigate } from 'react-router-dom';
 function App() {
   const [isCredential,setisCredntial] = useState('')
   return (
- <> <div className="App">
+ <> 
+ <div className="App">
       <div className="flex justify-center items-center h-screen flex-col">
         <div className="w-60 border-2 p-4">
           <div className="flex flex-col ml-[12px]">
@@ -26,18 +27,13 @@ function App() {
               <input type="password" className="border-2 border-gray-500" />
             </div>
           </div>
-         
             <button className='ml-[11px] mt-2 border-2 text-center w-[185px]'>
               Login
             </button>
-       
           <div>
-          
        </div>
-
         </div>
         <span className='mt-2'>or</span>
-
           <div className='mt-4 ml-1'>
         <GoogleLogin
         onSuccess={credentialResponse => {
@@ -50,9 +46,7 @@ function App() {
        </div>
        {isCredential && <Navigate to="/home" />}
       </div>
-     
     </div>
-
     </>
   );
 }

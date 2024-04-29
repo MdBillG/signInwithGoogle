@@ -1,13 +1,17 @@
 import { Link } from "react-router-dom"
+import Header from "./Header"
+import Banner from "./Banner"
+import BrandBanners from "./BrandBanners"
+import ProductCard from "./ProductCard"
 
 const Home =() =>{
 return (
-    <><div>Logged in Succesfully</div>
-    <Link to= '/'>
-    <button>
-       Login
-    </button>
-    </Link></>
+    <>
+<Header/>
+<Banner/>
+<BrandBanners/>
+<ProductCard/>
+   </>
 )
 
 
